@@ -1,0 +1,112 @@
+{
+    "categorias": [
+        {
+        "titulo": "Classical Music",
+        "cor": "#6b5be2",
+        "link_extra": {
+            "text": "Mais tutoriais de músicas clássicas",
+            "url": "https://www.youtube.com/playlist?list=PLLsp1gm4FxRgxKAcdQgGxP4zUhOqy3HFD"
+        },
+        "videos": [
+            {
+            "titulo": "Brahms - Hungarian Dance",
+            "url": "https://www.youtube.com/watch?v=HRlhC5FiJ-U&list=PLLsp1gm4FxRgxKAcdQgGxP4zUhOqy3HFD"
+            },
+            {
+            "titulo": "Beethoven - 5th Symphony",
+            "url": "https://www.youtube.com/watch?v=WwGUz_D1blE&list=PLLsp1gm4FxRgxKAcdQgGxP4zUhOqy3HFD&index=9"
+            },
+            {
+            "titulo": "Schubert - Ave Maria",
+            "url": "https://www.youtube.com/watch?v=hUwU505MiDY&list=PLLsp1gm4FxRgxKAcdQgGxP4zUhOqy3HFD&index=11"
+            },
+            {
+            "titulo": "Für Elise",
+            "url": "https://www.youtube.com/watch?v=V18EQpAbzeY&list=PLLsp1gm4FxRgxKAcdQgGxP4zUhOqy3HFD&index=24"
+            },
+            {
+            "titulo": "Beethoven - Moonlight Sonata",
+            "url": "https://www.youtube.com/watch?v=PAjcHUELtGs&list=PLLsp1gm4FxRgxKAcdQgGxP4zUhOqy3HFD&index=19"
+            }
+        ]
+        },
+        {
+        "titulo": "Old Pop Music",
+        "cor": "orange",
+        "link_extra": {
+            "text": "Mais tutoriais de músicas Pop antigas",
+            "url": "https://www.youtube.com/playlist?list=PLLsp1gm4FxRhiWzhJ4YvhqBi1YZr8sPFm"
+        },
+        "videos": [
+            {
+            "titulo": "John Lennon - Imagine",
+            "url": "https://www.youtube.com/watch?v=gYnjdfYgSJ4&list=PLLsp1gm4FxRhiWzhJ4YvhqBi1YZr8sPFm&index=10"
+            },
+            {
+            "titulo": "Coldplay - The Scientist",
+            "url": "https://www.youtube.com/watch?v=DesLlVjHiGA&list=PLLsp1gm4FxRhiWzhJ4YvhqBi1YZr8sPFm&index=37"
+            },
+            {
+            "titulo": "Beatles - Yesterday",
+            "url": "https://www.youtube.com/watch?v=n4pRZn1C6UI&list=PLLsp1gm4FxRhiWzhJ4YvhqBi1YZr8sPFm&index=28"
+            },
+            {
+            "titulo": "Coldplay - Viva La Vida",
+            "url": "https://www.youtube.com/watch?v=vmSEcxANkZc&list=PLLsp1gm4FxRhiWzhJ4YvhqBi1YZr8sPFm&index=16"
+            }
+        ]
+        },
+        {
+        "titulo": "New Pop Music",
+        "cor": "#00C86F",
+        "link_extra": {
+            "text": "Mais tutoriais de músicas Pop",
+            "url": "https://www.youtube.com/playlist?list=PLLsp1gm4FxRhUHSlj9pKUbwvWNr5cda81"
+        },
+        "videos": [
+            {
+            "titulo": "Bruno Mars - When I Was Your Man",
+            "url": "https://www.youtube.com/watch?v=-NjK4vpj_bA&list=PLLsp1gm4FxRhUHSlj9pKUbwvWNr5cda81"
+            },
+            {
+            "titulo": "Lil Nas X - Old Town Road",
+            "url": "https://www.youtube.com/watch?v=M4uy8nyljx4&list=PLLsp1gm4FxRhUHSlj9pKUbwvWNr5cda81&index=22"
+            },
+            {
+            "titulo": "John Legend - All Of Me",
+            "url": "https://www.youtube.com/watch?v=QbtGSI9qIno&list=PLLsp1gm4FxRhUHSlj9pKUbwvWNr5cda81&index=46"
+            },
+            {
+            "titulo": "Wiz Khalifa - See You Again",
+            "url": "https://www.youtube.com/watch?v=eS9igU4rRiQ&list=PLLsp1gm4FxRhUHSlj9pKUbwvWNr5cda81&index=50"
+            }
+        ]
+        },
+        {
+        "titulo": "Game Music",
+        "cor": "red",
+        "link_extra": {
+            "text": "Mais tutoriais de músicas de jogos",
+            "url": "https://www.youtube.com/playlist?list=PLLsp1gm4FxRhuhadNdbrZGb4mwfMVfNF1"
+        },
+        "videos": [
+            {
+            "titulo": "SUPER MARIO BROS. Ground Theme",
+            "url": "https://www.youtube.com/watch?v=IhkvTPO0zv4&list=PLLsp1gm4FxRhuhadNdbrZGb4mwfMVfNF1&index=2&t=0s"
+            },
+            {
+            "titulo": "Tetris Theme A",
+            "url": "https://www.youtube.com/watch?v=e_r37yFZEpA&list=PLLsp1gm4FxRhuhadNdbrZGb4mwfMVfNF1&index=8"
+            },
+            {
+            "titulo": "Angry Birds",
+            "url": "https://www.youtube.com/watch?v=0jFUqI8M-po&list=PLLsp1gm4FxRhuhadNdbrZGb4mwfMVfNF1&index=4"
+            },
+            {
+            "titulo": "The Legend of Zelda Theme",
+            "url": "https://www.youtube.com/watch?v=UqpMk03b3YE&list=PLLsp1gm4FxRhuhadNdbrZGb4mwfMVfNF1&index=7"
+            }
+        ]
+        }
+    ]
+}

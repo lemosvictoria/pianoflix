@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Pocoyo{
+    max-width: 180px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.Pocoyo:hover{
+    /*-webkit-transform: scale(1.2);
+    transform: scale(1.3);*/
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}    
+@media (max-width: 800px) {
+    .Pocoyo {
+        max-width: 105px;
+    }
+}
+

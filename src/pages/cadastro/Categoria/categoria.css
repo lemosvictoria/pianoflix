@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text]{ 
+    margin: 5px;
+}
+
+input[type=textarea]{ 
+    margin: 5px;
+}
+
+input[type=color]{ 
+    margin: 5px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    background-color:#2A7AE4;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+button:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

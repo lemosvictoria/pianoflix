@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const Button = styled.button`
     padding: 10px;
-    background-color:#2A7AE4;
+    background-color:#1cbdb2;
     border-radius: 5px;
     color: white;  
     font-size: 18px;
@@ -49,7 +49,10 @@ function CadastroCategoria(){
 
     return (
         <PageDefault>
-            <h1>Cadastro de Categoria: {values.nome}</h1>
+            <h1>
+                Cadastro de Categoria: 
+                {values.nome}
+            </h1>
 
             <form onSubmit={function handleSubmit(infosDoEvento){
                 infosDoEvento.preventDefault();
@@ -97,13 +100,11 @@ function CadastroCategoria(){
             )}
 
             <ul>
-                {categorias.map((categoria) => {
-                    return (
-                        <li key={`${categoria.nome}`}>
-                            {categoria.nome}
-                        </li>
-                    )
-                })}
+                {categorias.map((categoria) => (
+                    <li key={`${categoria.titulo}`}>
+                        {categoria.titulo}
+                    </li>
+                ))}
             </ul>
 
             <Link to="/">

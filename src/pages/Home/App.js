@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-//import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
@@ -15,9 +14,9 @@ function Home() {
             .then((categoriasComVideos) => {
                 setDadosIniciais(categoriasComVideos);
             })
-            /* .catch((err) => {
-                console.log();
-            }) */
+            .catch((err) => {
+                console.log(err.message);
+            })
     },[]);
     
 
@@ -33,7 +32,7 @@ function Home() {
                         <BannerMain
                             videoTitle={dadosIniciais[0].videos[0].titulo}
                             url={dadosIniciais[0].videos[0].url}
-                            videoDescription={"Tem vontade de aprender a tocar várias músicas no Piano? Aprenda aqui, de uma forma prática e divertida!"}
+                            videoDescription={dadosIniciais[0].videos[0].description}
                             />
                         <Carousel
                             ignoreFirstVideo

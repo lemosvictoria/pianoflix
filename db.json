@@ -4,7 +4,7 @@
             "id": 1,
             "titulo": "Classical Music",
             "cor": "#6b5be2",
-            "link-extra": {
+            "link_extra": {
                 "text": "Mais tutoriais de músicas clássicas",
                 "url": "https://www.youtube.com/playlist?list=PLLsp1gm4FxRgxKAcdQgGxP4zUhOqy3HFD"
             }

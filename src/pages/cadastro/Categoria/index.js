@@ -2,15 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField'
-import styled from 'styled-components';
-
-const Button = styled.button`
-    padding: 10px;
-    background-color:#1cbdb2;
-    border-radius: 5px;
-    color: white;  
-    font-size: 18px;
-`;
+import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria(){
     const valoresIniciais = {
@@ -18,34 +11,23 @@ function CadastroCategoria(){
         descricao: '',
         cor: '',
     }
-    
+
+    const { handleChange, values, clearForm } = useForm(valoresIniciais);
     const [categorias, setCategorias] = useState([]);
-    const [values, setValues] = useState(valoresIniciais);
-    
-    function setValue(chave, valor){
-        setValues({
-            ...values,
-            [chave]: valor,
-        })
-    }
-    
-    function handleChange(infosDoEvento) {
-        setValue(
-            infosDoEvento.target.getAttribute('name'),
-            infosDoEvento.target.value
-        );
-    }
     
     useEffect(() => {
-            const URL = 'https://pianoflix.herokuapp.com/categorias'; 
-            fetch(URL)
-            .then(async (respostaDoServer) => {
-                const resposta = await respostaDoServer.json();
-                setCategorias([
-                    ...resposta,
-                ])
-            })
-    }, [])
+        const URL = window.location.hostname.includes('localhost')
+        ? 'http://localhost:8080/categorias'
+        : 'https://pianoflix.herokuapp.com/categorias'; 
+        
+        fetch(URL)
+        .then(async (respostaDoServer) => {
+            const resposta = await respostaDoServer.json();
+            setCategorias([
+                ...resposta,
+            ])
+        }) 
+    }, []);
 
     return (
         <PageDefault>
@@ -61,8 +43,9 @@ function CadastroCategoria(){
                     values
                 ]);
 
-                setValues(valoresIniciais)
-            }}>
+                clearForm();
+            }}
+            >
                 
                 <FormField 
                     label="Nome da Categoria"
